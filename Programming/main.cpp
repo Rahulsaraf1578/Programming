@@ -7,9 +7,52 @@
 //
 
 #include <iostream>
+using namespace std;
+#include "header.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    
+//    Easy
+//    COPRIMEX();
+    
+    
+//    Language
+    
+    // Vector
+//    iterate( );
+//    UserInput( );
+//    Capacity( );
+//    ElementAccess( );
+//    Modifiers( );
+//    twodvectorIntro( );
+//    DefiningATwoDvector( );
+    
+    // Map
+//    intro();
+//    MapOfVector( );
+//    Setintro( );
+    
+    //Deque
+//    dequeintro( );
+    
+    // Matrix
+//    SearcInMatrix( );
+//    SpiralForm();
+    
+    //Graph
+//    GraphFirst( );
+    
+    // Binary Trees
+//    firsttree( );
+    TreeTransversal( );
+    
+    
+
+    
+    
+    // ***************** Test ***********************//
+//    test( );
+//     test2( );
+//    test3( );
+//    void test4( );
 }

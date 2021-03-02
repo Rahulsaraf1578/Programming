@@ -7,7 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB30BF3625EBBF31001BB9CA /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB30BF3525EBBF31001BB9CA /* test.cpp */; };
+		BB30BF3825EBBF46001BB9CA /* test2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB30BF3725EBBF46001BB9CA /* test2.cpp */; };
+		BB30BF3A25EBBF56001BB9CA /* test3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB30BF3925EBBF56001BB9CA /* test3.cpp */; };
+		BB30BF3C25EBBF6F001BB9CA /* test4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB30BF3B25EBBF6F001BB9CA /* test4.cpp */; };
 		BB87CFA725EA70D2004AA5BC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB87CFA625EA70D2004AA5BC /* main.cpp */; };
+		BBA9FDFC25EB788D00F083C8 /* UserInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA9FDFB25EB788D00F083C8 /* UserInput.cpp */; };
+		BBA9FDFE25EB796300F083C8 /* Capacity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA9FDFD25EB796300F083C8 /* Capacity.cpp */; };
+		BBA9FE0025EB7A9400F083C8 /* ElementAccess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA9FDFF25EB7A9400F083C8 /* ElementAccess.cpp */; };
+		BBA9FE0225EB7BF800F083C8 /* Modifiers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA9FE0125EB7BF800F083C8 /* Modifiers.cpp */; };
+		BBA9FE0625EB7D8300F083C8 /* Intro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA9FE0525EB7D8300F083C8 /* Intro.cpp */; };
+		BBA9FE0825EB7F2F00F083C8 /* MapOfVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA9FE0725EB7F2F00F083C8 /* MapOfVector.cpp */; };
+		BBA9FE0C25EB816A00F083C8 /* Set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA9FE0B25EB816A00F083C8 /* Set.cpp */; };
+		BBA9FE0E25EB841A00F083C8 /* dequeintro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA9FE0D25EB841A00F083C8 /* dequeintro.cpp */; };
+		BBAD78E125EE439F004C1776 /* Trees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBAD78E025EE439F004C1776 /* Trees.cpp */; };
+		BBAD78E325EE4C78004C1776 /* TreeTransversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBAD78E225EE4C78004C1776 /* TreeTransversal.cpp */; };
+		BBB65AE025ECFC75008149E6 /* SearcInMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB65ADF25ECFC75008149E6 /* SearcInMatrix.cpp */; };
+		BBB65AE225ECFE14008149E6 /* SpiralForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB65AE125ECFE14008149E6 /* SpiralForm.cpp */; };
+		BBB65AE525ECFF82008149E6 /* GraphFirst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB65AE425ECFF82008149E6 /* GraphFirst.cpp */; };
+		BBB7B33425EC9C9400903471 /* 2dvectorIntro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB7B33325EC9C9400903471 /* 2dvectorIntro.cpp */; };
+		BBB7B33625EC9F2700903471 /* DefiningATwoDvector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB7B33525EC9F2700903471 /* DefiningATwoDvector.cpp */; };
+		BBFC8C8725EB7443009E685C /* iterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFC8C8625EB7443009E685C /* iterator.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +43,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BB30BF3525EBBF31001BB9CA /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		BB30BF3725EBBF46001BB9CA /* test2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test2.cpp; sourceTree = "<group>"; };
+		BB30BF3925EBBF56001BB9CA /* test3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test3.cpp; sourceTree = "<group>"; };
+		BB30BF3B25EBBF6F001BB9CA /* test4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test4.cpp; sourceTree = "<group>"; };
 		BB87CFA325EA70D2004AA5BC /* Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programming; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB87CFA625EA70D2004AA5BC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BB8CF61A25EA8770005110EC /* header.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = header.hpp; sourceTree = "<group>"; };
+		BBA9FDFB25EB788D00F083C8 /* UserInput.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UserInput.cpp; sourceTree = "<group>"; };
+		BBA9FDFD25EB796300F083C8 /* Capacity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Capacity.cpp; sourceTree = "<group>"; };
+		BBA9FDFF25EB7A9400F083C8 /* ElementAccess.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ElementAccess.cpp; sourceTree = "<group>"; };
+		BBA9FE0125EB7BF800F083C8 /* Modifiers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Modifiers.cpp; sourceTree = "<group>"; };
+		BBA9FE0525EB7D8300F083C8 /* Intro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Intro.cpp; sourceTree = "<group>"; };
+		BBA9FE0725EB7F2F00F083C8 /* MapOfVector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MapOfVector.cpp; sourceTree = "<group>"; };
+		BBA9FE0B25EB816A00F083C8 /* Set.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Set.cpp; sourceTree = "<group>"; };
+		BBA9FE0D25EB841A00F083C8 /* dequeintro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dequeintro.cpp; sourceTree = "<group>"; };
+		BBAD78E025EE439F004C1776 /* Trees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Trees.cpp; sourceTree = "<group>"; };
+		BBAD78E225EE4C78004C1776 /* TreeTransversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeTransversal.cpp; sourceTree = "<group>"; };
+		BBB65ADF25ECFC75008149E6 /* SearcInMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearcInMatrix.cpp; sourceTree = "<group>"; };
+		BBB65AE125ECFE14008149E6 /* SpiralForm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralForm.cpp; sourceTree = "<group>"; };
+		BBB65AE425ECFF82008149E6 /* GraphFirst.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphFirst.cpp; sourceTree = "<group>"; };
+		BBB7B33325EC9C9400903471 /* 2dvectorIntro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2dvectorIntro.cpp; sourceTree = "<group>"; };
+		BBB7B33525EC9F2700903471 /* DefiningATwoDvector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DefiningATwoDvector.cpp; sourceTree = "<group>"; };
+		BBFC8C8625EB7443009E685C /* iterator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iterator.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +79,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB30BF3325EBBEF4001BB9CA /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				BB30BF3525EBBF31001BB9CA /* test.cpp */,
+				BB30BF3725EBBF46001BB9CA /* test2.cpp */,
+				BB30BF3925EBBF56001BB9CA /* test3.cpp */,
+				BB30BF3B25EBBF6F001BB9CA /* test4.cpp */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		BB87CF9A25EA70D2004AA5BC = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +110,106 @@
 			isa = PBXGroup;
 			children = (
 				BB87CFA625EA70D2004AA5BC /* main.cpp */,
+				BB8CF61A25EA8770005110EC /* header.hpp */,
+				BBFC8C8325EB72E3009E685C /* STL */,
+				BBB65AE325ECFF6D008149E6 /* Graph */,
+				BBAD78DF25EE4371004C1776 /* Binary tree */,
+				BBB65ADE25ECFC50008149E6 /* Matrix */,
+				BB30BF3325EBBEF4001BB9CA /* Test */,
 			);
 			path = Programming;
+			sourceTree = "<group>";
+		};
+		BBA9FE0325EB7D6C00F083C8 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				BBA9FE0525EB7D8300F083C8 /* Intro.cpp */,
+				BBA9FE0725EB7F2F00F083C8 /* MapOfVector.cpp */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		BBA9FE0925EB814800F083C8 /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				BBA9FE0B25EB816A00F083C8 /* Set.cpp */,
+			);
+			path = Set;
+			sourceTree = "<group>";
+		};
+		BBA9FE0A25EB815400F083C8 /* Dequeue */ = {
+			isa = PBXGroup;
+			children = (
+				BBA9FE0D25EB841A00F083C8 /* dequeintro.cpp */,
+			);
+			path = Dequeue;
+			sourceTree = "<group>";
+		};
+		BBAD78DF25EE4371004C1776 /* Binary tree */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD78E025EE439F004C1776 /* Trees.cpp */,
+				BBAD78E225EE4C78004C1776 /* TreeTransversal.cpp */,
+			);
+			path = "Binary tree";
+			sourceTree = "<group>";
+		};
+		BBB65ADE25ECFC50008149E6 /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				BBB65ADF25ECFC75008149E6 /* SearcInMatrix.cpp */,
+				BBB65AE125ECFE14008149E6 /* SpiralForm.cpp */,
+			);
+			path = Matrix;
+			sourceTree = "<group>";
+		};
+		BBB65AE325ECFF6D008149E6 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				BBB65AE425ECFF82008149E6 /* GraphFirst.cpp */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		BBB7B33225EC9C6B00903471 /* 2d vector */ = {
+			isa = PBXGroup;
+			children = (
+				BBB7B33325EC9C9400903471 /* 2dvectorIntro.cpp */,
+				BBB7B33525EC9F2700903471 /* DefiningATwoDvector.cpp */,
+			);
+			path = "2d vector";
+			sourceTree = "<group>";
+		};
+		BBFC8C8325EB72E3009E685C /* STL */ = {
+			isa = PBXGroup;
+			children = (
+				BBA9FE0325EB7D6C00F083C8 /* Map */,
+				BBA9FE0925EB814800F083C8 /* Set */,
+				BBA9FE0A25EB815400F083C8 /* Dequeue */,
+				BBFC8C8425EB72F2009E685C /* Vector */,
+			);
+			path = STL;
+			sourceTree = "<group>";
+		};
+		BBFC8C8425EB72F2009E685C /* Vector */ = {
+			isa = PBXGroup;
+			children = (
+				BBB7B33225EC9C6B00903471 /* 2d vector */,
+				BBFC8C8525EB7426009E685C /* Iterator */,
+			);
+			path = Vector;
+			sourceTree = "<group>";
+		};
+		BBFC8C8525EB7426009E685C /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				BBFC8C8625EB7443009E685C /* iterator.cpp */,
+				BBA9FDFB25EB788D00F083C8 /* UserInput.cpp */,
+				BBA9FDFD25EB796300F083C8 /* Capacity.cpp */,
+				BBA9FDFF25EB7A9400F083C8 /* ElementAccess.cpp */,
+				BBA9FE0125EB7BF800F083C8 /* Modifiers.cpp */,
+			);
+			path = Iterator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +269,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA9FE0C25EB816A00F083C8 /* Set.cpp in Sources */,
+				BBAD78E125EE439F004C1776 /* Trees.cpp in Sources */,
+				BBB7B33425EC9C9400903471 /* 2dvectorIntro.cpp in Sources */,
+				BBB7B33625EC9F2700903471 /* DefiningATwoDvector.cpp in Sources */,
+				BB30BF3A25EBBF56001BB9CA /* test3.cpp in Sources */,
+				BB30BF3625EBBF31001BB9CA /* test.cpp in Sources */,
+				BBA9FE0025EB7A9400F083C8 /* ElementAccess.cpp in Sources */,
 				BB87CFA725EA70D2004AA5BC /* main.cpp in Sources */,
+				BB30BF3825EBBF46001BB9CA /* test2.cpp in Sources */,
+				BB30BF3C25EBBF6F001BB9CA /* test4.cpp in Sources */,
+				BBA9FDFE25EB796300F083C8 /* Capacity.cpp in Sources */,
+				BBB65AE525ECFF82008149E6 /* GraphFirst.cpp in Sources */,
+				BBA9FE0625EB7D8300F083C8 /* Intro.cpp in Sources */,
+				BBA9FE0225EB7BF800F083C8 /* Modifiers.cpp in Sources */,
+				BBFC8C8725EB7443009E685C /* iterator.cpp in Sources */,
+				BBA9FE0825EB7F2F00F083C8 /* MapOfVector.cpp in Sources */,
+				BBA9FDFC25EB788D00F083C8 /* UserInput.cpp in Sources */,
+				BBA9FE0E25EB841A00F083C8 /* dequeintro.cpp in Sources */,
+				BBB65AE225ECFE14008149E6 /* SpiralForm.cpp in Sources */,
+				BBAD78E325EE4C78004C1776 /* TreeTransversal.cpp in Sources */,
+				BBB65AE025ECFC75008149E6 /* SearcInMatrix.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,60 +6,51 @@
 //  Copyright © 2021 Rahul saraf. All rights reserved.
 //
 
+/**
+ https://www.codechef.com/LTIME93C/problems/DIV03
+ 
+ I have thought about solution correctly but  I was not able to implement it
+ */
+
 #include "header.hpp"
 #include <iostream>
 using namespace std;
 
-void test1( ){
+#define ll long long int
+#define FIO ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0)
+#define mod 1000000007
+
+void DIV03( ){
+   
+    FIO;
     int t;
     cin>>t;
-    while (t--) {
-        int arr[13];
-        for (int i=1; i<=10; i++) {
-            cin>>arr[i];
-        }
-        int k;
-        cin>>k;
-//        int flag = 0;
-        int index = 0;
-        for (int i=10;i>0; i--) {
-             if(arr[i]>=k && k!=0){
-                k= arr[i]-k;
-//                 cout<<"K1 "<<k<<" i "<<i<<endl;
-             }
-            if(k>=arr[i]){
-               k= k-arr[i];
-//                cout<<"K2 "<<k<<" i "<<i<<endl;
-            }
-            else if (k == 0&& arr[i] != 0) {
-                index = i;
-//                cout<<"Index:" <<index+1<<endl;
-                break;
-            }
-            else if(k == 0 || arr[i] != 0){
-                index = i;
-                cout<<index<<endl;
-            }
     
-//            }else if(arr[i]<k){
-//
-//                k = k -arr[i];
-//                cout<<"k "<<k<<endl;
-//            }
-//            else if(k ==0 && (arr[i-1]!=0  || arr[i] != 0)){
-//                if (arr[i]<k) {
-//                    cout<<index<<endl;
-//
-//                }
-//            }
-//            else if(arr[i]>k){
-//                k= arr[i]-k;
-//            }else{
-//                k = k -arr[i];
-//            }
-//
-             }
-      
-        
+    while(t--)
+    {
+    int arr[11];
+    
+    for(int i=1;i<=10;i++)
+    {
+        cin>>arr[i];
     }
+    
+    int k;
+    cin>>k;
+    
+    for(int i=10;i>0;i--)
+    {
+        int temp=min(arr[i],k);
+        arr[i]-=temp;
+        k-=temp;
+    }
+    
+    for(int i=10;i>0;i--)
+    {
+        if(arr[i]!=0){
+            cout<<i<<"\n";
+            break;
+         }
+    }
+}
 }
